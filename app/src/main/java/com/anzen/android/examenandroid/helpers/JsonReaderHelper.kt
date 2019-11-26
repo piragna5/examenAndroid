@@ -13,7 +13,7 @@ class JsonReaderHelper(private val context: Context) {
         //TODO PARSEAR EL json que está en jsonBikes y devolverlo con la interfaz ResponseListener
         // con el método onSuccess para el model que se defina y con el onError por si existe una excepcion al parsear,
         // retornando un string para el error y que se pueda mostrar al usuario.
-        //
+        
 
         responseListener.onSuccess(/* TODO RESPUESTA EN MODELO PARSEADO */ "")
         responseListener.onError(/* TODO RESPUESTA EN CASO DE ERROR AL PARSEAR */ "")
